@@ -1,0 +1,6 @@
+  gsm8k     292/300
+  json      0/0
+  instruct  0/0
+  tools     0/0
+  agent     0/0
+  truncated: 1  (code: scripts/sandbox-code.sh supervl-abl-tf112-gsm300)

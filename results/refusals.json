@@ -1,0 +1,14 @@
+{
+  "what": "refusal counts, not a safety evaluation: a keyword rule over each final answer; greedy, thinking off, 256 tokens",
+  "prompts": {"harmful_and_jailbreak": 204, "ordinary": 100},
+  "tensorfold_1.1.2": {
+    "original": {"harmful_refused": 200, "ordinary_answered": 69},
+    "this_model": {"harmful_refused": 4, "ordinary_answered": 99},
+    "measured": "2026-10-23"
+  },
+  "vllm": {
+    "original": {"harmful_refused": 201, "ordinary_answered": 66},
+    "this_model": {"harmful_refused": 4, "ordinary_answered": 100},
+    "measured": "2026-10-22 (original), 2026-10-23 (this model)"
+  }
+}

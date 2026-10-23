@@ -1,0 +1,4 @@
+{"summary": "code", "prompts": 3, "tokens": 1152, "tokens_per_round": 4.74, "tok_s": 49.2}
+{"summary": "explain", "prompts": 3, "tokens": 1152, "tokens_per_round": 3.33, "tok_s": 42.5}
+{"summary": "prose", "prompts": 2, "tokens": 620, "tokens_per_round": 2.63, "tok_s": 37.2}
+{"summary": "german", "prompts": 1, "tokens": 384, "tokens_per_round": 3.66, "tok_s": 45.2}

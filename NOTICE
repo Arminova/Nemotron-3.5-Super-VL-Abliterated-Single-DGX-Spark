@@ -1,0 +1,13 @@
+Nemotron-3.5-Super-VL abliterated on one DGX Spark
+Copyright 2026 Arminova
+
+This repository is licensed under the Apache License, Version 2.0 (LICENSE). It holds scripts and measurements
+only.
+
+It contains no TensorFold or vLLM code. prepare.sh downloads TensorFold's official release archive
+(https://github.com/ashhart/TensorFold, Apache-2.0), which carries its own LICENSE, NOTICE and
+THIRD_PARTY_NOTICES.md, and the vLLM image (https://github.com/vllm-project/vllm, Apache-2.0).
+
+The model weights are not part of this repository. prepare.sh downloads them from Hugging Face under their own
+license: the checkpoint is a derivative of NVIDIA's Nemotron-3.5-Super-VL and, like it, is governed by the OpenMDW
+License Agreement, version 1.1 (https://openmdw.ai/license/1-1/). See CREDITS.md.

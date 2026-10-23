@@ -1,0 +1,7 @@
+2026-10-23 11:33:21 start: http://127.0.0.1:8888 as nemotron-3.5-super-vl
+2026-10-23 11:34:10 bench_openai rc=0
+2026-10-23 11:36:15 bench_concurrent rc=0
+2026-10-23 11:40:41 tasks rc=0 in 265s:  gsm8k 49/50; json 15/15; instruct 8/10; tools 20/20; agent 10/10;
+2026-10-23 11:40:41 code:  code 25/25
+2026-10-23 11:54:49 gsm300 rc=0 in 848s:  gsm8k 293/300
+2026-10-23 11:54:54 min MemAvailable 28.2 GB

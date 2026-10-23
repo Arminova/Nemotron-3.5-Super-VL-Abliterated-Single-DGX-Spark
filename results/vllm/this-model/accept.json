@@ -1,0 +1,92 @@
+[
+ {
+  "kind": "code",
+  "tokens": 384,
+  "wall_s": 8.17,
+  "tok_s": 47.0,
+  "rounds": 77.0,
+  "drafted": 539.0,
+  "accepted": 312.0,
+  "tokens_per_round": 5.05
+ },
+ {
+  "kind": "code",
+  "tokens": 384,
+  "wall_s": 8.16,
+  "tok_s": 47.1,
+  "rounds": 76.0,
+  "drafted": 532.0,
+  "accepted": 307.0,
+  "tokens_per_round": 5.04
+ },
+ {
+  "kind": "code",
+  "tokens": 384,
+  "wall_s": 8.27,
+  "tok_s": 46.4,
+  "rounds": 76.0,
+  "drafted": 532.0,
+  "accepted": 309.0,
+  "tokens_per_round": 5.07
+ },
+ {
+  "kind": "explain",
+  "tokens": 384,
+  "wall_s": 11.01,
+  "tok_s": 34.9,
+  "rounds": 107.0,
+  "drafted": 749.0,
+  "accepted": 278.0,
+  "tokens_per_round": 3.6
+ },
+ {
+  "kind": "explain",
+  "tokens": 384,
+  "wall_s": 10.75,
+  "tok_s": 35.7,
+  "rounds": 104.0,
+  "drafted": 728.0,
+  "accepted": 279.0,
+  "tokens_per_round": 3.68
+ },
+ {
+  "kind": "explain",
+  "tokens": 384,
+  "wall_s": 10.08,
+  "tok_s": 38.1,
+  "rounds": 96.0,
+  "drafted": 672.0,
+  "accepted": 293.0,
+  "tokens_per_round": 4.05
+ },
+ {
+  "kind": "prose",
+  "tokens": 384,
+  "wall_s": 14.41,
+  "tok_s": 26.7,
+  "rounds": 140.0,
+  "drafted": 980.0,
+  "accepted": 245.0,
+  "tokens_per_round": 2.75
+ },
+ {
+  "kind": "prose",
+  "tokens": 225,
+  "wall_s": 8.21,
+  "tok_s": 27.4,
+  "rounds": 78.0,
+  "drafted": 546.0,
+  "accepted": 147.0,
+  "tokens_per_round": 2.88
+ },
+ {
+  "kind": "german",
+  "tokens": 384,
+  "wall_s": 11.89,
+  "tok_s": 32.3,
+  "rounds": 117.0,
+  "drafted": 819.0,
+  "accepted": 269.0,
+  "tokens_per_round": 3.3
+ }
+]

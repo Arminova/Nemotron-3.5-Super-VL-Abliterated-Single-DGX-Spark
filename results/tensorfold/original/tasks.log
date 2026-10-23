@@ -1,0 +1,6 @@
+  gsm8k     49/50
+  json      15/15
+  instruct  8/10
+  tools     20/20
+  agent     10/10
+  truncated: 0  (code: scripts/sandbox-code.sh supervl-orig-tf112)

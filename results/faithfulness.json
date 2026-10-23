@@ -1,0 +1,10 @@
+{
+  "what": "this model against NVIDIA's original checkpoint, teacher-forced: both score the same documents, top-20 log-probabilities per position (vLLM prompt_logprobs), drafter off",
+  "engine": "vLLM, image vllm/vllm-openai@sha256:cb9bc64f0f038c2c2ebf13b31248fb87aca40c356c3d20f363be087cfcff1fcd",
+  "documents": "code, prose, chat, long-context and reasoning texts",
+  "positions": 64319,
+  "kl_over_top20": "a lower bound of the full KL",
+  "noise_floor": {"what": "the original against a second run of itself", "kl": 0.0138},
+  "this_model": {"kl": 0.0157, "top1_agreement": 0.9574, "delta_nll": 0.0013},
+  "measured": "2026-10-23"
+}

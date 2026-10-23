@@ -1,0 +1,62 @@
+[
+ {
+  "target": 4096,
+  "prompt_tokens": 3899,
+  "completion_tokens": 256,
+  "ttft_s": 1.71,
+  "pp_tok_s": 2275.6,
+  "tg_tok_s": 45.8
+ },
+ {
+  "target": 16384,
+  "prompt_tokens": 15326,
+  "completion_tokens": 256,
+  "ttft_s": 5.15,
+  "pp_tok_s": 2974.3,
+  "tg_tok_s": 29.6
+ },
+ {
+  "target": 32768,
+  "prompt_tokens": 35452,
+  "completion_tokens": 256,
+  "ttft_s": 11.92,
+  "pp_tok_s": 2973.4,
+  "tg_tok_s": 37.5
+ },
+ {
+  "target": 65536,
+  "prompt_tokens": 63702,
+  "completion_tokens": 256,
+  "ttft_s": 21.8,
+  "pp_tok_s": 2921.8,
+  "tg_tok_s": 27.3
+ },
+ {
+  "target": 131072,
+  "prompt_tokens": 145998,
+  "completion_tokens": 256,
+  "ttft_s": 59.98,
+  "pp_tok_s": 2434.1,
+  "tg_tok_s": 29.1
+ },
+ {
+  "target": 262000,
+  "prompt_tokens": 258575,
+  "completion_tokens": 256,
+  "ttft_s": 131.38,
+  "pp_tok_s": 1968.1,
+  "tg_tok_s": 26.1
+ },
+ {
+  "target": 524000,
+  "prompt_tokens": 524498,
+  "completion_tokens": 256,
+  "ttft_s": 389.45,
+  "pp_tok_s": 1346.8,
+  "tg_tok_s": 23.9
+ },
+ {
+  "target": 1040000,
+  "error": "HTTP 400: {\"error\":{\"message\":\"This model's maximum context length is 1048576 tokens. However, your prompt contains at least 1048577 input tokens, which exceeds this limit even without any output tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=1048577)\",\"type\":\"BadRequestE"
+ }
+]

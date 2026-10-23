@@ -1,0 +1,90 @@
+{"label": "", "prompt": "fibonacci-raw", "temperature": 0.0, "decode_tps_median": 60.04030524087586, "decode_tps_all": [54.58, 62.94, 60.04], "ttft_s_median": 0.24814034602604806}
+{"label": "", "prompt": "gpu-chat-no-think", "temperature": 0.0, "decode_tps_median": 34.613212011983876, "decode_tps_all": [34.61, 34.01, 36.41], "ttft_s_median": 0.31058069807477295}
+[
+ {
+  "label": "",
+  "prompt": "fibonacci-raw",
+  "temperature": 0.0,
+  "tokens": 256,
+  "decode_tps_median": 60.04030524087586,
+  "decode_tps_all": [
+   54.58,
+   62.94,
+   60.04
+  ],
+  "ttft_s_median": 0.24814034602604806,
+  "evidence": [
+   {
+    "prompt_tokens": 15,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "9f5ce5f7d9dea7ad5f6f7e18700c976ae4e7f10bee7f5be01e2182034be5df8d"
+   },
+   {
+    "prompt_tokens": 15,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "a8033623d893f7c989bda3949b19955b3d3f880f8c6a0a54f2aa34bc1516df5e"
+   },
+   {
+    "prompt_tokens": 15,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "a8033623d893f7c989bda3949b19955b3d3f880f8c6a0a54f2aa34bc1516df5e"
+   }
+  ],
+  "sample": " The function should take an integer n and return the nth number in the Fibonacci sequence. The Fibonacci sequence is a series of numbers where a number is the "
+ },
+ {
+  "label": "",
+  "prompt": "gpu-chat-no-think",
+  "temperature": 0.0,
+  "tokens": 256,
+  "decode_tps_median": 34.613212011983876,
+  "decode_tps_all": [
+   34.61,
+   34.01,
+   36.41
+  ],
+  "ttft_s_median": 0.31058069807477295,
+  "evidence": [
+   {
+    "prompt_tokens": 35,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "5047075bef8d5a6c661ea5f4a32cfa36c94df1c14601c88594dfb299cdd9e51f"
+   },
+   {
+    "prompt_tokens": 35,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "1a1b1e5c9f5a8915600c7561f05b16ae364bee9f1f356a850e6d04d481b58492"
+   },
+   {
+    "prompt_tokens": 35,
+    "cached_tokens": null,
+    "tokens": 256,
+    "cache_state": "unverified",
+    "complete": true,
+    "token_sha": null,
+    "output_sha256": "afa35e60c53973270b257acf89994ca24aaff3c855a4fc311c1d77e4d336b5e0"
+   }
+  ],
+  "sample": "### Part 1: How a GPU does matrix multiplication (plain English)\n\nImagine you have two giant spreadsheets of numbers (matrices) and you want to multiply them to"
+ }
+]
